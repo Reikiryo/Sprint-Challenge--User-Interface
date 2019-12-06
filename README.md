@@ -46,7 +46,6 @@ take no extra space and can blend in with other elements.
 
 3. What are the 4 areas of the box model?
 
-
 From outward to inward they are; Margin, Border, Padding, Content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
