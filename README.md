@@ -1,4 +1,4 @@
-# Sprint Challenge: User Interface and Git - Multi-Page Website
+# Sprint Challenge: User Interface and Git - Multi-Page Website j
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
 
@@ -34,13 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+To describe semantic HTML I first have to describe what it means to be semantic.
+Semantic refers to anything that has a relation to logic or meaning. So semantic html is html that uses tags
+that have meaning to the you the creator of the code. And the name of the tags represents what they do.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+The differences between a block element and an inline element are that the block element creates a new line under itself and pushes all other
+content downward, as well as block elements can use css properties that inline elements cannot such as height, and width. While inline elements
+take no extra space and can blend in with other elements.
 
 3. What are the 4 areas of the box model?
 
+
+From outward to inward they are; Margin, Border, Padding, Content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+Any property that has align in its name refers to the cross-axis. Therefore align-items refers to the cross-axis.
+If it were instead justify-items then it would refer to the main-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+A team of developers all work from different computers in different locations whether that be around the office or in completely different countries.
+Git allows these teams to work together efficiently through the use of remote repositories, and pull requests. Git also adds a massive level of security
+that makes it nearly impossible to lose content. With version control and the use of local as well as remote repositories even if all the servers crashed
+and burned and all the data was lost the local repositories could replace 100% of the data.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
