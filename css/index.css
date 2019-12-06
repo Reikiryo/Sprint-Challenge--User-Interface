@@ -333,7 +333,7 @@ footer nav a {
 .about {
     padding: 0 3% 4% 3%;
     margin-bottom: 4%;
-    border-bottom: 2px dashed grey;
+    border-bottom: 1px dashed black;
 }
 
 /* About Info Section */
@@ -351,7 +351,7 @@ footer nav a {
     height: 30%;
     width: 48%;
     margin-bottom: 7%;
-    border-bottom: 2px dashed grey;
+    border-bottom: 1px dashed black;
 }
 
 .strat, .placeswe {
@@ -382,4 +382,58 @@ footer nav a {
 .bottom div {
     padding: 0 3% 3% 3%;
     margin-bottom: 3%;
+}
+
+/* ABOUT PAGE END */
+
+/* Products Page */
+
+.menu-content img{
+    margin-bottom: 4%;
+
+}
+
+.products {
+    display:flex;
+    justify-content: space-around;
+    border-bottom: 1px dashed black;
+    margin-bottom: 4%;
+
+}
+
+.products div {
+    width: 40%;
+    margin: 0 2% 4% 2%;
+}
+
+/* Products Info */
+
+.products-info {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.product1, .product2, .product3, .product4, .product5, .product6{
+    width: 42%;
+    margin: 3%;
+    padding: 0 3%;
+    border: 1px dashed black;
+    background-color: white;
+}
+
+.products-buy {
+        text-align: center;
+        margin: 4% 0%;
+        width: 38%;
+        padding: 3% 5%;
+        border: 1.5px solid black;
+        border-radius: 10px;
+        background-color: white;
+        background-color:lightgray ;
+}
+
+
+.products-buy a{
+    color:black;
 }
